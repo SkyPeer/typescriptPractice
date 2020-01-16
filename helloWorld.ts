@@ -14,7 +14,7 @@ function foo(val: string) {
 
 foo(message + counterrrr);
 
-let data: Array<string> = ["a", "b", "c"];
+let data: Array<object> = [{ a: 1 }, { b: 2 }, { c: 3 }];
 console.log("data", data);
 
 function arrayHandler() {
